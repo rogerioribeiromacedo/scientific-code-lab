@@ -7,7 +7,6 @@ Science, scripts, automation and computational exploration. A personal repositor
 - Scientific computing
 - Math and calculus
 - Molecular simulation tools
-- Linux and Bash utilities
 - Python experiments
 - Data analysis and visualization
 
@@ -15,7 +14,6 @@ Science, scripts, automation and computational exploration. A personal repositor
 
 ```text
 scientific-code-lab/
-├── bash/                       # Shell scripts and automation
 ├── computational-chemistry/    # Computational Chemistry lab
 ├── mathematics/                # Calculus code
 ├── molecular-dynamics/         # Molecular dynamics-related scripts and workflows
