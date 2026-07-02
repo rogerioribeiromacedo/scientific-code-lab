@@ -4,7 +4,6 @@
 ![NumPy](https://img.shields.io/badge/NumPy-Latest-green)
 ![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)
 
-
 A Python program to compute the **center of mass (COM)** of a molecular structure and, optionally, translate the atomic coordinates so that the center of mass is located at the origin.
 
 This project was developed as part of a Master's research project and is intended as a lightweight command-line utility for molecular structure analysis.
@@ -107,6 +106,9 @@ center_of_mass/
 ├── center_of_mass.py
 ├── README.md
 └── LICENSE
+└── docs/
+    └── images/
+        ├── ...
 ```
 
 ---
@@ -115,18 +117,14 @@ center_of_mass/
 
 The center of mass is computed according to
 
-[
-\mathbf{R}_{CM}
-===============
-
-\frac{\sum_i m_i \mathbf{r}_i}
-{\sum_i m_i}
-]
+<p align="center">
+    <img src="docs/images/eq_center_of_mass.png" width="750" alt="Program example">
+</p>
 
 where:
 
-* (m_i) is the mass of atom *i*;
-* (\mathbf{r}_i) is its Cartesian coordinate.
+* (m<sub>i</sub>) is the mass of atom *i*;
+* (r<sub>i</sub>) is its Cartesian coordinate.
 
 Atomic masses are taken from the IUPAC standard atomic weights.
 
