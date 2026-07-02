@@ -2,7 +2,8 @@
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
 ![NumPy](https://img.shields.io/badge/NumPy-Latest-green)
-![License](https://img.shields.io/badge/License-MIT-yellow)
+![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)
+
 
 A Python program to compute the **center of mass (COM)** of a molecular structure and, optionally, translate the atomic coordinates so that the center of mass is located at the origin.
 
