@@ -103,12 +103,16 @@ python center_of_mass.py \
 ```text
 center_of_mass/
 │
-├── center_of_mass.py
 ├── README.md
 └── LICENSE
 └── docs/
+    └── manual_center_of_mass.pdf
     └── images/
-        ├── ...
+└── geom/
+    └── pdb/
+    └── xyz/
+└── src/
+    └── center_of_mass.py
 ```
 
 ---
