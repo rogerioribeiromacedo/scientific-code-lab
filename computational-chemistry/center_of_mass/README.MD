@@ -118,7 +118,7 @@ center_of_mass/
 The center of mass is computed according to
 
 <p align="center">
-    <img src="docs/images/eq_center_of_mass.png" width="750" alt="Program example">
+    <img src="docs/images/eq_center_of_mass.png" width="550" alt="Program example">
 </p>
 
 where:
